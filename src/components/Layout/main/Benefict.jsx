@@ -1,9 +1,9 @@
 import style from './Benefict.module.css'
 function Benefict(){
     return (
-        <header className={style.benefict}>
+        <div className={style.benefict}>
             Benefict
-        </header>
+        </div>
     )
 }
 export default Benefict
