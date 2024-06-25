@@ -1,9 +1,9 @@
 import style from './Products.module.css'
 function Products(){
     return (
-        <header className={style.products}>
-            Products
-        </header>
+        <section className={style.products}>
+            <header className={style.header}>  Nossos Produtos</header>
+        </section>
     )
 }
 export default Products
