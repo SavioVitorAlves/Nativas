@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
 .products{
-    height: 200px;
-    background-color:blue;
+    height: 800px;
+    background-color:#FF9C06;
+    padding: 15px;
+}
+.header{
+    display: block;
+    font-family:'Jockey One';
+    font-size: 30pt;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
 }

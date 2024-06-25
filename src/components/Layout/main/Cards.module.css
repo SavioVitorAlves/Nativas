@@ -1,4 +1,82 @@
 .cards{
-    height: 200px;
-    background-color: rgb(0, 255, 55);
+    height: 400px;
+    background-color: #d9d9d9;
+    display: flex;
+    
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.testemunho{
+    height: 250px;
+    width: 200px;
+    /*background-color:aqua;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.testemunho .cicle {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.testemunho p {
+    word-wrap: break-word; /* Garante a quebra de linha */
+    overflow-wrap: break-word; /* Garante a quebra de linha */
+    word-break: break-word; /* Quebra palavras longas */
+    white-space: normal; /* Permite a quebra de linha normal */
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    text-align: center;
+    font-family: 'Jockey One';
+    margin: 0 5px 0 5px;
+    font-size: 10pt
+}
+.testemunho h5{
+    margin: 8px 0 10px 0;
+    font-family: 'Jockey One';
+}
+
+.testemunho i{
+    color: #FF9C06;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+.cards .carousel {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.cards button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.cards .prev {
+    left: 10px;
+}
+
+.cards .next {
+    right: 10px;
+}
+.cards img{
+    margin-top: -120px;
+    height: 500px;
+    width: 830px;
+    position: absolute;
+    z-index: 0;
 }
