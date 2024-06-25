@@ -20,21 +20,21 @@ function Header(){
           <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img className={style.config} src={img1} class="d-block w-100" alt="..."/>
+              <img className={`${style.config} d-block w-100`} src={img1} alt="..."/>
             </div>
-            <div class="carousel-item">
-              <img className={style.config} src={img2} class="d-block w-100" alt="..."/>
+            <div className="carousel-item">
+              <img className={`${style.config} d-block w-100`} src={img2} alt="..."/>
             </div>
-            <div class="carousel-item">
-              <img className={style.config} src={img3} class="d-block w-100" alt="..."/>
+            <div className="carousel-item">
+              <img className={`${style.config} d-block w-100`} src={img3} alt="..."/>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
           </button>
           <button id='next' class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
