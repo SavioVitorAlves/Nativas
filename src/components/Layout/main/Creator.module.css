@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 .creator{
-    height: 200px;
-    background-color: red;
+    height: 500px;
+    background-color: #B88900;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+
+}
+.spec{
+        
+
+}
+.spec h5{
+    word-wrap: break-word; /* Garante a quebra de linha */
+    overflow-wrap: break-word; /* Garante a quebra de linha */
+    word-break: break-word; /* Quebra palavras longas */
+    white-space: normal; /* Permite a quebra de linha normal */
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    color: white;
+}
+.spec header{
+    color: black;
+}
+.name p{
+    color: white;
+}
+.name h2{
+    color: black;
 }
