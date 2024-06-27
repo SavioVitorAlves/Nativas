@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 .products{
     height: 800px;
     background-color:#FF9C06;
     padding: 15px;
+    position: relative;
+    overflow: hidden;
 }
 .header{
     display: block;
@@ -12,4 +14,23 @@
     text-align: center;
     color: black;
     margin-top: 10px;
+    z-index: 2;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-around;
+    margin-top: 30px;
+    row-gap: 40px;
+    z-index: 3;
+    position: relative;
+}
+.img{
+    position: absolute;
+    z-index: 1;
+    bottom: -80px;
+    left: -350px;
+    height: 700px;
+    width: 625px;
 }
