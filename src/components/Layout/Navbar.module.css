@@ -2,5 +2,24 @@
     margin: 0;
     padding: 0;
     height: 50px;
-    background-color: #d3a007;
+    background-color: #1a1818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px 0 140px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: #FF9C06;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+    list-style-type: none;
+    
+    margin-bottom: 0;
 }
