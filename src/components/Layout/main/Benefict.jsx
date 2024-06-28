@@ -1,7 +1,7 @@
 import style from './Benefict.module.css'
 function Benefict(){
     return (
-        <div className={style.benefict}>
+        <div id="Benefict" className={style.benefict}>
             <div className={style.ben_item}>
                 <div className={style.cicle}>
                 </div>

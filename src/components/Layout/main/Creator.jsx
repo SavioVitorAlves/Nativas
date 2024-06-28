@@ -1,20 +1,26 @@
 import style from './Creator.module.css'
+import apicultor from '../../img/apicultor.png'
 function Creator(){
     return (
-        <header className={style.creator}>
+        <section id="Sobre" className={style.creator}>
             <div className={style.name}>
-                <h2>Nome <br/> Principal</h2>
-                <p>Formado em <br/> Apicultura UFNT</p>
+                <h2>José <br/> Bruno</h2>
+                <div>
+                    <span class="material-symbols-outlined">hive</span>
+                    <p>Formado em <br/> Apicultura UFNT</p>
+                </div>
+                
             </div>
             <div className={style.spec}>
                 <header>
-                    apicultor, professor,<br/> pecuarista e empresario
+                    meliponicultor, professor,<br/> pecuarista e empresario
                 </header>
                 <h5>
-                    bslfçsdknfssndfsçlkdn
+                José é um  meliponicultor dedicado que, além de cuidar das abelhas, é também um professor respeitado e empresário de sucesso. Com paixão pela educação e inovação, ele desenvolveu o método "Abelhas Sem Fumaça", revolucionando a  meliponicultura!
                 </h5>
             </div>
-        </header>
+            <img className={style.apic} src={apicultor} alt="" />
+        </section>
     )
 }
 export default Creator

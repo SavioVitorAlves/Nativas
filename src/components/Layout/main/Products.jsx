@@ -5,7 +5,7 @@ import comeia from '../../img/comeia.png'
 import Card from '../../cards/Card'
 function Products(){
     return (
-        <section className={style.products}>
+        <section id="Produtos" className={style.products}>
             <header className={style.header}>  Nossos Produtos</header>
             <section className={style.grid}>
                 <Card
