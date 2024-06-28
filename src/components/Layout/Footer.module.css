@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 .footer{
     margin: 0;
     padding: 0;
-    height: 50px;
-    background-color: #d3a007;
+    height: auto;
+    background-color: #1a1818;
+    color:white;
+    padding: 0 200px 0 200px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+.cartoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(94, 91, 91);
+    padding: 30px 0;
+    margin-top: 30px;
+    color: rgb(94, 91, 91);
+    
+}
+.cartoes .img img{
+    height: 20px;
+    width: 30px;
+    border-radius: 3px;
+}
+.cartoes .img{
+    display: flex;
+    gap: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.info p{
+    color: rgb(94, 91, 91);
+    margin-bottom: 0;
+    font-size: 11pt;
 }
