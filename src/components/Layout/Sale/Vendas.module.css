@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+.vendas{
+    height: 100vh;
+    background-color: #FF9C06;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+    color: #000;
+}
+.vendas input::placeholder{
+    padding-left: 5px;
+}
+.vendas input{
+    padding-left: 5px;
+}
+.vendas img{
+    height: 250px;
+    width: 250px;
+}
+.vendas .button{
+    background-color: #FF9C06;
+    border-radius: 5px;
+    border: none;
+    width: 230px;
+    height: 50px;
+    font-family: 'Jockey One';
+    font-size: 20pt;
+    cursor: pointer;
+}
+.vendas .neg{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 500px;
+    width: 420px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+/*-----------div text----------*/
+.vendas .neg .text{
+    text-align: left;
+    font-family: 'Inria Sans';
+}
+.vendas .neg .text h3{
+    margin: 0 0 20px 0;
+    font-family: 'Jockey One';
+    text-transform: uppercase;
+}
+
+/*-----------div val----------*/
+.vendas .neg .text .val{
+    text-align: left;
+    display: flex;
+    font-family: 'Jockey One';
+    font-size: 18pt;
+    gap: 10px;
+    align-items: end;
+    margin-bottom: 20px;
+    
+}
+.vendas .neg .text .val h2{
+    font-family: 'Lalezar';
+    font-size: 3rem ;
+    margin-bottom: 0;
+}
+/*-----------div cep----------*/
+.vendas .neg .text .cep{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.vendas .neg .text .cep input{
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #000;
+}
+.vendas .neg .text .cep button{
+    background-color: #2876D1;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Jockey One';
+    cursor: pointer;
+    margin-left: 5px;
+    height: 30px;
+    width: 70px;
+}
+/*-----------div estoque----------*/
+.vendas .neg .text .estoque{
+    text-align: left;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    
+}
+/*-----------div qtd----------*/
+.vendas .neg .text .qtd{
+    text-align: left;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.vendas .neg .text .qtd h5{
+    font-family: 'Jockey One';
+    margin-right: 5px;
+}
+.vendas .neg .text .qtd input{
+    height: 25px;
+    width: 50px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #000;
+}
+/*-----------------Input email---------------*/
+.text input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
