@@ -3,6 +3,7 @@ import style from './Products.module.css'
 import mel from '../../img/img-products/mel.jpg'
 import comeia from '../../img/comeia.png'
 import Card from '../../cards/Card'
+
 function Products(){
     return (
         <section id="Produtos" className={style.products}>
@@ -12,16 +13,17 @@ function Products(){
                     img={mel}
                     nome="Nome do Produto"
                     preco="49,50"
+                    
                 />
                 <Card
                     img={mel}
-                    nome="Nome do Produto"
+                    nome="Nome do Produt"
                     preco="49,50"
                 />
                 <Card
                     img={mel}
                     nome="Nome do Produto"
-                    preco="49,50"
+                    preco="89,50"
                 />
                 <Card
                     img={mel}
