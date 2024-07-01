@@ -1,4 +1,10 @@
+import Vendas from "../Layout/Sale/Vendas"
+
 function Sale(){
-    return <p>sale</p>
+    return (
+        <div>
+            <Vendas/>
+        </div>
+    )
 }
 export default Sale
