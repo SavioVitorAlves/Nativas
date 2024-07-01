@@ -13,7 +13,7 @@ function Navbar(){
                 </div>
                 <ul>
                     <li>
-                        <Link to="/envio">Envio</Link>
+                        <Link to="/shipping">Envio</Link>
                     </li>
                     <li>
                         <a href="#Benefict">Beneficios</a> 
