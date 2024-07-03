@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+
 import style from './Cards.module.css';
 import mel from '../../img/mel.png';
 import Slider from "react-slick";
@@ -13,83 +13,16 @@ function Cards() {
         slidesToShow: 5,
         slidesToScroll: 1
       };
-    /*  const carouselRef = useRef(null);
-    const prevButtonRef = useRef(null);
-    const nextButtonRef = useRef(null);
-
-    useEffect(() => {
-        const initializeCarousel = () => {
-            const carousel = carouselRef.current;
-            const prevButton = prevButtonRef.current;
-            const nextButton = nextButtonRef.current;
-
-            if (!carousel || !prevButton || !nextButton) {
-                console.error("Elementos não encontrados.");
-                return;
-            }
-
-            const cards = carousel.querySelectorAll(`.${style.testemunho}`);
-            const totalCards = cards.length;
-
-            if (totalCards > 0) {
-                // Clonando os primeiros e últimos cards para criar um efeito infinito
-                const firstClone = cards[0].cloneNode(true);
-                const lastClone = cards[totalCards - 1].cloneNode(true);
-
-                carousel.appendChild(firstClone);
-                carousel.insertBefore(lastClone, cards[0]);
-
-                let currentIndex = 0;
-                const cardWidth = cards[0].offsetWidth;
-
-                const updateCarousel = () => {
-                    if (currentIndex === totalCards) {
-                        carousel.style.transition = 'none';
-                        currentIndex = 0;
-                        carousel.style.transform = `translateX(-${(currentIndex + 1) * cardWidth}px)`;
-                    } else if (currentIndex === -1) {
-                        carousel.style.transition = 'none';
-                        currentIndex = totalCards - 1;
-                        carousel.style.transform = `translateX(-${(currentIndex + 1) * cardWidth}px)`;
-                    }
-                };
-
-                nextButton.addEventListener('click', () => {
-                    if (currentIndex < totalCards) {
-                        currentIndex++;
-                        carousel.style.transition = 'transform 0.5s ease-in-out';
-                        carousel.style.transform = `translateX(-${(currentIndex + 1) * cardWidth}px)`;
-                    }
-                    setTimeout(updateCarousel, 500);
-                });
-
-                prevButton.addEventListener('click', () => {
-                    if (currentIndex > -1) {
-                        currentIndex--;
-                        carousel.style.transition = 'transform 0.5s ease-in-out';
-                        carousel.style.transform = `translateX(-${(currentIndex + 1) * cardWidth}px)`;
-                    }
-                    setTimeout(updateCarousel, 500);
-                });
-
-                // Set initial position to show the first card
-                carousel.style.transform = `translateX(-${cardWidth}px)`;
-            } else {
-                console.error("Nenhum elemento com a classe .testemunho foi encontrado.");
-            }
-        };
-
-        setTimeout(initializeCarousel, 0); // Executar após a montagem completa
-    }, []);*/
-
+ 
     return (
         <div className={style.cards}>
             <div className={style.carousel} /*ref={carouselRef}*/>
                <Slider {...settings}>
                 <div className={style.testemunho}>
                     <div className={style.cicle}></div>
-                    <h5>Joao</h5>
-                    <p>Texto do testemunho</p>
+                    <h5>Ana Souza</h5>
+                    <p>Comprei o mel de abelhas sem ferrão e fiquei maravilhada com o sabor. Além disso, senti uma melhora 
+                    na minha digestão e disposição diária. Recomendo a todos!</p>
                     <div className={style.icones}>
                         <i className="bi bi-star-fill"></i>
                         <i className="bi bi-star-fill"></i>
@@ -100,8 +33,9 @@ function Cards() {
                 </div>
                 <div className={style.testemunho}>
                     <div className={style.cicle}></div>
-                    <h5>pedro</h5>
-                    <p>Texto do testemunho</p>
+                    <h5>Carlos Lima</h5>
+                    <p>O própolis de abelhas sem ferrão que comprei ajudou muito na minha imunidade. Desde que comecei a usar,
+                    não peguei mais resfriados frequentes. Excelente produto!</p>
                     <div className={style.icones}>
                         <i className="bi bi-star-fill"></i>
                         <i className="bi bi-star-fill"></i>
@@ -112,8 +46,9 @@ function Cards() {
                 </div>
                 <div className={style.testemunho}>
                     <div className={style.cicle}></div>
-                    <h5>Thiago</h5>
-                    <p>Texto do testemunho</p>
+                    <h5>Mariana Santos</h5>
+                    <p>Uso o mel de abelhas sem ferrão na minha rotina de cuidados com a pele e percebi uma grande diferença na
+                    hidratação e cicatrização de pequenas feridas. É realmente incrível!</p>
                     <div className={style.icones}>
                         <i className="bi bi-star-fill"></i>
                         <i className="bi bi-star-fill"></i>
@@ -124,8 +59,9 @@ function Cards() {
                 </div>
                 <div className={style.testemunho}>
                     <div className={style.cicle}></div>
-                    <h5>tito</h5>
-                    <p>Texto do testemunho</p>
+                    <h5>Rafael Oliveira</h5>
+                    <p>Minha esposa e eu adoramos o sabor único do mel de abelhas sem ferrão. Além disso, sentimos que nosso 
+                    sistema imunológico está mais forte desde que começamos a consumir regularmente.</p>
                     <div className={style.icones}>
                         <i className="bi bi-star-fill"></i>
                         <i className="bi bi-star-fill"></i>
@@ -136,8 +72,48 @@ function Cards() {
                 </div>
                 <div className={style.testemunho}>
                     <div className={style.cicle}></div>
-                    <h5>matheus</h5>
-                    <p>Texto do testemunho</p>
+                    <h5>Beatriz Ferreira</h5>
+                    <p>Depois de começar a usar os produtos de abelhas sem ferrão, minha energia aumentou e a saúde intestinal 
+                    melhorou significativamente. Não troco por nada!</p>
+                    <div className={style.icones}>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star"></i>
+                    </div>
+                </div>
+                <div className={style.testemunho}>
+                    <div className={style.cicle}></div>
+                    <h5>João Pereira</h5>
+                    <p>Sofria com problemas digestivos e o mel de abelhas sem ferrão foi uma solução natural e eficaz. 
+                    Melhora minha digestão e ainda tem um sabor delicioso.</p>
+                    <div className={style.icones}>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star"></i>
+                    </div>
+                </div>
+                <div className={style.testemunho}>
+                    <div className={style.cicle}></div>
+                    <h5>Luciana Almeida</h5>
+                    <p>O pólen de abelhas sem ferrão que comprei trouxe muitos benefícios para minha saúde. Notei um aumento
+                    na minha disposição e energia ao longo do dia.</p>
+                    <div className={style.icones}>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star"></i>
+                    </div>
+                </div>
+                <div className={style.testemunho}>
+                    <div className={style.cicle}></div>
+                    <h5>Felipe Martins</h5>
+                    <p>Sou apaixonado por produtos naturais e o mel de abelhas sem ferrão superou minhas expectativas. Sinto-me
+                    mais saudável e com mais energia desde que comecei a usar.</p>
                     <div className={style.icones}>
                         <i className="bi bi-star-fill"></i>
                         <i className="bi bi-star-fill"></i>
