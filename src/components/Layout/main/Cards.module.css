@@ -2,7 +2,7 @@
     height: 400px;
     background-color: #d9d9d9;
     display: flex;
-    
+    justify-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
@@ -13,8 +13,9 @@
     /*background-color:aqua;*/
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     padding: 15px;
+    align-items: center;
 }
 .testemunho .cicle {
     height: 80px;
@@ -22,6 +23,8 @@
     background-color: yellow;
     border-radius: 50%;
     border: 1px solid black;
+    margin-left: 50%;
+    transform: translate(-50%);
 }
 .testemunho p {
     word-wrap: break-word; /* Garante a quebra de linha */
@@ -29,7 +32,7 @@
     word-break: break-word; /* Quebra palavras longas */
     white-space: normal; /* Permite a quebra de linha normal */
     margin: 0; /* Remove a margem padrão do parágrafo */
-    text-align: center;
+    text-align:center;
     font-family: 'Jockey One';
     margin: 0 5px 0 5px;
     font-size: 10pt
@@ -37,22 +40,29 @@
 .testemunho h5{
     margin: 8px 0 10px 0;
     font-family: 'Jockey One';
+    text-align:center;
 }
 
 .testemunho i{
     color: #FF9C06;
     font-size: 1em;
     margin-left: 5px;
+  
+}
+.testemunho .icones{
+    text-align: center;
+    margin-left: -5px;
 }
 
 .cards .carousel {
     width: 100%;
-    display: flex;
+    /*display: flex;*/
     transition: transform 0.5s ease-in-out;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     z-index: 1;
+    width: 90%;
 }
 .cards button {
     position: absolute;
@@ -78,5 +88,6 @@
     height: 500px;
     width: 830px;
     position: absolute;
+    left: 0;
     z-index: 0;
 }
