@@ -25,6 +25,15 @@
     border: 1px solid black;
     margin-left: 50%;
     transform: translate(-50%);
+    position: relative;
+    overflow: hidden;
+}
+.testemunho .cicle img{
+    height: 80px;
+    width: 90px;
+    position: absolute;
+    top: 120px;
+    left: -5px;
 }
 .testemunho p {
     word-wrap: break-word; /* Garante a quebra de linha */
