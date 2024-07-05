@@ -32,9 +32,37 @@
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
+    
 }
 .info p{
     color: rgb(94, 91, 91);
     margin-bottom: 0;
     font-size: 11pt;
+ 
+}
+.info a{
+    text-decoration: none;
+    color: rgb(94, 91, 91);
+    font-size: 11pt;
+}
+.info a:hover{
+    color: #FF9C06;
+}
+.info ul{
+    list-style-type: none;
+}
+.info .contents{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.info .social{
+    display:flex;
+    gap: 10px;
+}
+.info .social a{
+    font-size: 1rem;
+}
+.info .social a:hover{
+    color: #FF9C06;
 }
