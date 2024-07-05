@@ -1,5 +1,5 @@
 import style from './Vendas.module.css'
-
+import ApiMercadoPago from '../../service/apis/ApiMercadoPago';
 import { useLocation } from 'react-router-dom';
 function Vendas(){
     const location = useLocation();
@@ -11,7 +11,7 @@ function Vendas(){
             {data ? (
 
             <>
-            <img src={`${data.img}`} alt="Mel de abela Uruçu Amarela" />
+            <img className={style.img_produc} src={`${data.img}`} alt="Mel de abela Uruçu Amarela" />
             <div className={style.neg}>
                 <div className={style.text}>
                 <h3>{`${data.name}`}</h3>
@@ -34,7 +34,7 @@ function Vendas(){
                 </div>
                 <input type="email" placeholder='Seu Email'/>
                 </div>
-                <button className={style.button}>COMPRAR</button>
+                <button className={style.button} >COMPRAR</button>
             </div>
             </>
             ) : (

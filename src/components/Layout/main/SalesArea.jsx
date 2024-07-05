@@ -1,7 +1,7 @@
 import style from './SalesArea.module.css'
 import variedades from '../../img/variedades.png'
 import jatai from '../../img/abelha.png'
-import mel from '../../img/img-products/mel.jpg'
+import mel_uruçu from '../../img/img-products/mel_uruçu.jpg'
 import {useNavigate} from 'react-router-dom'
 function SalesArea(){
     
@@ -11,7 +11,7 @@ function SalesArea(){
 
     const handleClick = () => {
         // Informações a serem passadas para a próxima página
-        const data = { img: mel, name: titulo, preco: price };
+        const data = { img: mel_uruçu, name: titulo, preco: price };
         
         // Redireciona para a página About
         navigate('/sale', { state: data });
@@ -19,7 +19,7 @@ function SalesArea(){
 
     return (
         <section className={style.salesarea}>
-            <img src={variedades} alt="variedades de produtos de abelhas sem ferrão" />
+            <img  src={variedades} alt="variedades de produtos de abelhas sem ferrão" />
             <div>
                 <h1>Mel de Uruçu-Amarela</h1>
                 <h3>mais de 12 tipos de<br/>beneficios diferentes</h3>
