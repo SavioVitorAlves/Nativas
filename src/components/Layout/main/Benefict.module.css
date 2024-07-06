@@ -47,3 +47,24 @@
     margin: 8px 0 10px 0;
     font-family: 'Jockey One';
 }
+/*------Responcividade--------*/
+@media screen  and (max-width: 1170px){
+    .ben_item{
+        height: 250px;
+        width: 200px;
+    }
+    .cicle{
+        height: 110px;
+        width: 110px;  
+    }
+    .cicle img{
+        height: 80px;
+        width: 80px;
+    }
+    .ben_item p {
+
+    }
+    .ben_item h4{
+
+    }
+}

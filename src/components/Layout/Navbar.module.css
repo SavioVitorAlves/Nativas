@@ -23,3 +23,53 @@
     
     margin-bottom: 0;
 }
+.navbar span {
+    display: none;
+    color: white;
+}
+.menu_mobile{
+    background-color: rgb(6, 3, 24);
+    margin-bottom: -17px;
+    display: none;
+    cursor: pointer;
+    /*position: absolute;*/
+    width: 30%;
+    right: 0;
+    margin-left: auto;
+
+}
+.menu_mobile ul{
+    /*display: flex;
+    flex-direction: row;*/
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+.menu_mobile ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu_mobile ul li a:hover{
+    color: #8d8b8b;
+ 
+}
+
+/*------Responsividade--------*/
+@media screen and (max-width: 660px){
+    .navbar{
+        padding: 0 40px 0 40px;
+    }
+    .navbar ul{
+        display: none;
+        
+    }
+    .navbar span{
+        display: block;
+    }
+    
+}
+@media screen and (min-width: 660px){
+    .menu-mobile {
+        display: none;
+    }
+}
