@@ -64,7 +64,7 @@
 }
 
 .cards .carousel {
-    width: 100%;
+   
     /*display: flex;*/
     transition: transform 0.5s ease-in-out;
     flex-direction: row;
@@ -99,4 +99,46 @@
     position: absolute;
     left: 0;
     z-index: 0;
+}
+@media screen  and (max-width: 768px){
+    .cards{
+        height: 600px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+
+    }
+    .cards .carousel {
+   
+        /*display: flex;*/
+        transition: transform 0.5s ease-in-out;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+        width: 90%;
+    }
+    .cards img{
+        top: 50px;
+    }
+}
+@media screen  and (max-width: 620px){
+    .cards img{
+   
+        height: 350px;
+        width: 630px;
+    }
+}
+@media screen  and (max-width: 460px){
+    .cards img{
+        top:70px;
+        height: 250px;
+        width: 370px;
+    }
+    .cards .carousel {
+   
+        width: 75%;
+}
 }

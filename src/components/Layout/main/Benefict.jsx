@@ -36,8 +36,7 @@ function Benefict(){
                     <img src={açucar} alt="Produtos de abelhas sem ferrão com antioxidantes"/>
                 </div>
                 <h4>Controle de Açúcar</h4>
-                <p>Possui índice glicêmico mais baixo do que de abelhas com ferrão,
-                melhor para pessoas que precisam monitorar seus níveis de açúcar.
+                <p>Possui índice glicêmico mais baixo do que de abelhas com ferrão.
                </p>
            </div>
         </div>

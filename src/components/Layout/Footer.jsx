@@ -27,7 +27,7 @@ function Footer(){
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className={style.contato}>
                     <h6>Contato</h6>
                     <div>
                     <div className={style.contents}>

@@ -10,7 +10,7 @@ import joao_pereira from '../../img/img-pessoas/joao_pereira.png';
 import luciana_almeida from '../../img/img-pessoas/luciana_almeida.png';
 import mariana_santos from '../../img/img-pessoas/mariana_santos.png';
 import rafael_oliveira from '../../img/img-pessoas/rafael_oliveira.png';
-//----------pluguin do carrocel---------
+//----------lib do carrocel---------
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -21,7 +21,27 @@ function Cards() {
         infinite: true,
         speed: 500,
         slidesToShow: 5,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768, // tamanho da tela
+                settings: {
+                    slidesToShow: 3, // quantidade de slides a mostrar
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }   
+            },
+            {
+                breakpoint: 450, // tamanho da tela
+                settings: {
+                    slidesToShow: 1, // quantidade de slides a mostrar
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }   
+            }
+        ]
       };
  
     return (

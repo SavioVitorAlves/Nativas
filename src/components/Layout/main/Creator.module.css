@@ -7,6 +7,7 @@
     justify-content: space-between;
     padding: 20px;
     position: relative;
+    overflow: hidden;
 }
 .name{
     text-align: left;
@@ -64,4 +65,106 @@
     left: 110px;
     height: 500px;
     width: 800px;
+}
+@media screen  and (max-width: 1330px){
+    .apic{
+        top: 150px;
+        left: 130px;
+        height: 350px;
+        width: 600px;
+    }
+}
+@media screen  and (max-width: 1110px){
+    .creator{
+        height: 700px;
+        justify-content: center;
+    }
+    .spec{
+        margin: 65px 0 0 0;
+        width: 80%;
+
+    }
+    .spec header{
+        font-size: 30pt;
+        margin-left: 40px;
+        text-align: center;
+    }
+    .name{
+        position: absolute;
+        top: 350px;
+        left: 60px;
+    }
+    .apic{
+        top: 300px;
+        left: 400px;
+        height: 450px;
+        width: 700px;
+        
+    }
+}
+@media screen  and (max-width: 980px){
+    .apic{
+        top: 350px;
+        left: 250px;
+        height: 350px;
+        width: 600px;
+        
+    }
+}
+@media screen  and (max-width: 740px){
+    .apic{
+        top: 450px;
+        left: 200px;
+        height: 250px;
+        width: 500px;
+        
+    }
+    .name{
+      
+        top: 400px;
+        left: 30px;
+    }
+}
+@media screen  and (max-width: 610px){
+    .apic{
+        top: 700px;
+        left: 15%;
+        height: 200px;
+        width: 450px;
+    }
+    .name{
+        top: 450px;
+        left: 100px;
+    }
+    .creator{
+        height: 900px;
+    }
+    .spec header{
+        font-size: 25pt;
+        margin-left: 0;
+    }
+}
+@media screen  and (max-width: 480px){
+    .apic{
+        top: 650px;
+        left: 5%;
+        height: 150px;
+        width: 350px;
+    }
+    .name{
+        top: 400px;
+        left: 40px;
+    }
+    .creator{
+        height: 800px;
+    }
+    .spec header{
+        font-size: 20pt;
+    }
+    .spec h5{
+        font-Size: 1rem;
+    }
+    .spec{
+        margin-top: 30px;
+    }
 }
