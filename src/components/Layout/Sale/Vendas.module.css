@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 .vendas{
-    height: 100vh;
+    height: 600px;
     background-color: #FF9C06;
     display: flex;
     justify-content: space-between;
@@ -123,4 +123,69 @@
     background: none;
     border: 1px solid #000;
     margin-bottom: 20px;
+}
+@media screen  and (max-width: 1100px){
+    .vendas{
+        padding: 40px;
+    }
+}
+@media screen  and (max-width: 768px){
+    .vendas .neg{
+        height: 400px;
+        width: 320px;
+        padding: 40px;
+    }
+    /*-----------div val----------*/
+    .vendas .neg .text .val{
+    font-size: 13pt;
+    margin-bottom: 0;
+    align-items: end;
+    }
+    .vendas .neg .text .val p {
+        margin-bottom: 10px;
+    }
+    .vendas .neg .text .val h2{
+    font-size: 2rem;
+    }
+    .vendas .neg .text h3{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .vendas .neg .text .cep input{
+        width: 150px;
+    }
+    .vendas .neg .text .cep{
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    .vendas .neg .text .qtd{
+        height: 30px; 
+        margin-bottom: 10px;
+    }
+}
+@media screen  and (max-width: 660px){
+    .vendas{
+        height: 750px;
+        flex-direction: column;
+    }
+}
+@media screen  and (max-width: 350px){
+    .vendas .neg{
+        height: 350px;
+        width: 250px;
+        padding: 8px;
+    }
+    /*-----------div val----------*/
+    .vendas .neg .text .val{
+        width: 200px;
+    }
+    .text input{
+        width: 180px;
+    }
+    .vendas .button{
+       
+        width: 200px;
+        height: 40px;
+    }
 }
