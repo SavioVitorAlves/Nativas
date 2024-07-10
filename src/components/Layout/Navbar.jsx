@@ -2,6 +2,7 @@ import style from './Navbar.module.css'
 import {Link} from 'react-router-dom'
 import Container from'./Container'
 import React, { useRef } from 'react';
+import logo from   '../img/nativas.png'
 function Navbar(){
     
     const menuRef = useRef(null);
@@ -20,7 +21,7 @@ function Navbar(){
             <nav className={style.navbar}>
                 <div>
                     <Link to="/">
-                        LOGO
+                        <img className={style.logo} src={logo} alt="Abelhas sem Ferrão" />
                     </Link>
                     
                 </div>
