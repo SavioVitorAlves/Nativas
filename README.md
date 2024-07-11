@@ -120,6 +120,6 @@ Feito com ❤️ por Savio Vitor 👋🏽 Entre em contato!
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Thiago Marinho 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tgmarinho/)
+Feito com ❤️ por Savio Viotr 👋🏽 [Entre em contato!](https://www.linkedin.com/in/saviovioralves/)
 
 ---
