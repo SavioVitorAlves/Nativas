@@ -123,7 +123,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Savio Vitor 👋🏽 Entre em contato!
 
-[![Instagram Badge](https://img.shields.io/badge/-@saviovitoralves-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://instagram.com/saviovitoralves)](https://instagram.com/saviovitoralves) [![Linkedin Badge](https://img.shields.io/badge/-Savio_Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/saviovitoralves/)](https://www.linkedin.com/in/saviovitoralves/) 
+[![Instagram Badge](https://img.shields.io/badge/-@saviovitoralves-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=Instagram&logoColor=white&link=https://instagram.com/saviovitoralves)](https://instagram.com/saviovitoralves) [![Linkedin Badge](https://img.shields.io/badge/-Savio_Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/saviovitoralves/)](https://www.linkedin.com/in/saviovitoralves/) 
 [![Gmail Badge](https://img.shields.io/badge/-saviovitor2@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:saviovitor2@gmail.com)](mailto:saviovitor2@gmail.com)
 
 
