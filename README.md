@@ -34,7 +34,7 @@
 </p>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Nativas 🚀 Pre Finalizado...  🚧
 </h4>
 
 ## 💻 Sobre o projeto
