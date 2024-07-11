@@ -39,11 +39,11 @@
 
 ## 💻 Sobre o projeto
 
-♻️ Ecoleta - é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
+🍯 Nativas - é uma forma de facilitar a venda conectando pessoas aos produtos oriundos abelhas nativas (sem ferrão) de maneira facil e pratica.
 
 
-Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
-O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+Projeto desenvolvido no perodo de 15 dias no mes de julho de 2024, com intuito de estudar e treinar a tecnologia do react js e suas libs.
+O Website Nativas foi desenvolvido para oferecer uma experiência de compra prática, segura e agradável, além de fornecer informações detalhadas sobre nossa história, valores e compromisso com a qualidade.
 
 ---
 
@@ -68,9 +68,13 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 ---
 
 ### Processo
-- [x] Cadastro de usuário
-- [x] Cadastro de cliente
-- [ ] Cadastro de produtos
+- [x] Criação do prototipo
+- [x] Esqueto basico
+- [x] Area de produtos
+- [x] Pagina de vendas
+- [ ] Pagina de envio
+- [ ] Conecção com API
+- [ ] Banco de Dados
 
 ### Pré-requisitos
 
@@ -103,18 +107,18 @@ $ npm run dev:server
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
+- [Javascrip](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [React Slick](https://react-slick.neostack.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - ### Autor
 ---
 
 <a href="https://blog.rocketseat.com.br/author/thiago/">
  <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
+ <sub><b>Savio Vitor</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
 
 
 Feito com ❤️ por Thiago Marinho 👋🏽 Entre em contato!
