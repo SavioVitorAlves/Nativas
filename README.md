@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
+  <img alt="Logo da Aplicação" title="Logo da Aplicação" src="./src/components/img/nativas.png"  width="450"/>
 </h1>
 <h1 align="center">Nativas</h1>
 <p align="center"> 🍯 Website de um criador de abelhas nativas Institucinal / E-coomerce / Paginas de Vendas</p>
@@ -36,21 +36,10 @@ O Website Nativas foi desenvolvido para oferecer uma experiência de compra prá
 
 ## ⚙️ Funcionalidades
 
-- [x] Empresas ou entidades podem se cadastrar na plataforma web enviando:
-  - [x] uma imagem do ponto de coleta
-  - [x] nome da entidade, email e whatsapp
-  - [x] e o endereço para que ele possa aparecer no mapa
-  - [x] além de selecionar um ou mais ítens de coleta: 
-    - lâmpadas
-    - pilhas e baterias
-    - papéis e papelão
-    - resíduos eletrônicos
-    - resíduos orgânicos
-    - óleo de cozinha
-
+- [x] Clientes podem realizar compras e aconpanhar seus pedidos
 - [x] Os usuários tem acesso ao aplicativo móvel, onde podem:
-  - [x] navegar pelo mapa para ver as instituições cadastradas
-  - [x] entrar em contato com a entidade através do E-mail ou do WhatsApp
+  - [x] verificar a localidade do seu pedio em tempo real 
+  - [x] Fazer novos pedios
 
 ---
 
