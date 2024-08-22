@@ -37,9 +37,13 @@ O Website Nativas foi desenvolvido para oferecer uma experiência de compra prá
 ## ⚙️ Funcionalidades
 
 - [x] Clientes podem realizar compras e aconpanhar seus pedidos
+- [x] Clientes podem entrar em contato com o vendedor ou o criador
+- [x] Navegação rapida atraves de links no cabeçalho e no rodapé
+- [x] Escolher forma de pagamento e cartôes disponiveis
 - [x] Os usuários tem acesso ao aplicativo móvel, onde podem:
   - [x] verificar a localidade do seu pedio em tempo real 
   - [x] Fazer novos pedios
+  - [x] Todas as funcionalidades do sistema em Descktop
 
 ---
 
@@ -58,25 +62,15 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Rodando o Front End
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://github.com/SavioVitorAlves/Nativas>
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+# Use o comando para roda a aplicação no teminal
+$ npm start
 
-# Vá para a pasta server
-$ cd server
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
 
 ### 🛠 Tecnologias
@@ -91,17 +85,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - ### Autor
 ---
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+<a href="https://www.linkedin.com/in/saviovitoralves/">
+ <img border-radius= "50%;" src="https://media.licdn.com/dms/image/v2/D4D03AQFzQ8EE_uDELQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713567713570?e=1729728000&v=beta&t=ujHAU4WTfFEDji8f0vgADSrgb2fOJ12JXHoZQhkYvuU" width="100px;" alt="Imagem do Desenvolvedor"/>
  <br />
- <sub><b>Savio Vitor</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
+ <sub><b>Savio Vitor</b></sub></a> <a href="https://www.linkedin.com/in/saviovitoralves/" title="Linkedin">🚀</a>
 
 
 Feito com ❤️ por Savio Vitor 👋🏽 Entre em contato!
 
 [![Instagram Badge](https://img.shields.io/badge/-@saviovitoralves-%237519C1?style=flat-square&labelColor=%237519C1&logo=Instagram&logoColor=white&link=https://instagram.com/saviovitoralves)](https://instagram.com/saviovitoralves) [![Linkedin Badge](https://img.shields.io/badge/-Savio_Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/saviovitoralves/)](https://www.linkedin.com/in/saviovitoralves/) 
 [![Gmail Badge](https://img.shields.io/badge/-saviovitor2@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:saviovitor2@gmail.com)](mailto:saviovitor2@gmail.com)
-
+[![Whatsapp Badge](https://img.shields.io/badge/-Savio_Vitor-green?style=flat-square&logo=Whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=5563991080174)](https://api.whatsapp.com/send?phone=5563991080174)
 
 ---
 
@@ -109,6 +103,6 @@ Feito com ❤️ por Savio Vitor 👋🏽 Entre em contato!
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Savio Viotr 👋🏽 [Entre em contato!](https://www.linkedin.com/in/saviovioralves/)
+Feito com ❤️ por Savio Viotr 👋🏽 [Entre em contato!](https://api.whatsapp.com/send?phone=5563991080174)
 
 ---
